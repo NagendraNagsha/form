@@ -61,23 +61,22 @@ input[type=submit]:hover {
   
  <div class="container"> 
   <form action="https://formspree.io/nagendra556677@gmail.com" method="POST">
-    <label for="lname">Name</label>
-    <input type="text" id="fname" >
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="Name" placeholder="Your name..">
 
     <label for="lname">ID Number</label>
-    <input type="text" id="lname" >
+    <input type="text" id="lname" name="" placeholder="Your last name..">
 
-    <label for="lname">Do u want to complete Project on your owm?</label>
+    <label for="country">Do you want complete project on your own?</label>
     <select id="country" name="country">
-      <option value="Yes">Yes</option>
-      <option value="No">No</option>
-      <option value="Not Yet Desided">Not Yet Desided</option>
-      
+      <option value="australia">Yes</option>
+      <option value="canada">No</option>
+      <option value="usa">Not Yet Decided</option>
     </select>
 
-    <label for="subject">Are u confused abt project? Write your problem below.</label>
-    <textarea id="subject"  placeholder="Write something.." style="height:200px"></textarea>
+    <label for="subject">Are u confused abt your Project? Share your Problem</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Send">
+    <input type="submit" value="Submit">
 </form>
 </body>
